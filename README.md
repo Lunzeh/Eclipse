@@ -24,21 +24,19 @@ or publisher.
 
 ## Where it stands (2026-11-25)
 
-Tested on one machine only: Windows 11, Intel i9-12900K, 64 GB RAM, Radeon
-RX 7900 XTX, 1440p, the Series X profile.
+Tested on one machine only: Windows 11, R5 3600, 16 GB RAM, RTX 3070ti , 1080p, the Series S profile.
 
 | | |
 |---|---|
-| Menus, videos, loading screens | 30 fps |
-| Prologue, indoors | 50-75 ms a frame (13-20 fps) |
-| First mission with the boat | 46-53 ms (19-22 fps) |
-| Street chase with many cars and people | 100-165 ms (6-10 fps), single frames far longer |
-| Outdoors on foot, the camp | 60-90 ms |
-| Flying | 42-57 ms |
-| Longest session so far | 41 minutes, no crash |
+| Menus, videos, loading screens | 0 fps |
+| Prologue, indoors | 50-75 ms a frame (0 fps) |
+| First mission with the boat | 46-53 ms (0 fps) |
+| Street chase with many cars and people | 100-165 ms (0 fps), single frames far longer |
+| Outdoors on foot, the camp | 0 ms |
+| Flying | 0 ms |
+| Longest session so far | 0 minutes, no Boot yet |
 | Memory | 40-46 GB of private memory: **64 GB of RAM recommended** |
 
-It started at 280 ms a frame in the same scenes two days earlier.
 
 What is known to be wrong:
 
@@ -120,7 +118,7 @@ commits taken from elsewhere name the commit and its author.
 - **Geckomacabre** and **cxy0072019-sketch**: the texture read-back.
 - **[XCL](https://github.com/ivall/xcl)** (GPL-2.0-only) was read for how the same
   title behaves under another layer; no code of it is here.
-- This fork's changes were made with [Claude Code](https://claude.com/claude-code).
+- This fork's changes were made with [Cline].
 
 ## License
 
