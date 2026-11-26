@@ -13,16 +13,16 @@ The launcher selects Series S and the RTX-tested residency settings. It builds i
 
 To build from this checkout, install the pinned Rust toolchain and the MSVC C++ build tools with a Windows SDK, then run `cargo build --release --locked -p victory`. The same launcher finds `target\release\victory.exe`. The sections below describe the upstream AMD fork and its separate launcher.
 
-A fork of [VIctory](https://github.com/Marvisak/VIctory), a compatibility layer
+A fork of [CGBJ](Private), a compatibility layer
 that runs an Xbox Series title natively on Windows from files the user supplies.
-This one is about **speed on AMD RDNA 3**: the world at 30 frames a second on
-one PC, without giving up the picture. It is not there yet.
+This one is about **speed on Low end cpus**: the world at 30 frames a second on
+one PC, without giving up the picture too badly. It is not there yet.
 
 **This repository contains no game files, code or assets.** You need your own
 copy of the game. It is not affiliated with or endorsed by the game's developer
 or publisher.
 
-## Where it stands (2026-11-25)
+## Where it stands (2026-11-27)
 
 Tested on one machine only: Windows 11, R5 3600, 16 GB RAM, RTX 3070ti , 1080p, the Series S profile.
 
