@@ -1,4 +1,4 @@
-# VIctory on an RTX 3070 Ti
+# CGBJ on an RTX 3070 Ti
 
 ## Run the codec_d Windows build
 
